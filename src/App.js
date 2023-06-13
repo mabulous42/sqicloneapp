@@ -7,6 +7,7 @@ import SectionThree from './SectionThree';
 import SectionFour from './SectionFour';
 import SectionFive from './SectionFive';
 import SectionSix from './SectionSix';
+import SectionSeven from './SectionSeven';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <SectionFour />
       <SectionFive />
       <SectionSix />
+      <SectionSeven />
     </>
   );
 }

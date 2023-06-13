@@ -259,6 +259,7 @@ button{
 .content-2{
   background-image: linear-gradient(120deg,rgba(0,4,66,0) 0%,#000442 70%),url(https://edu.sqi.ng/wp-content/uploads/2020/08/DSC_9054-scaled.jpg);
   background-size: cover;
+  background-position: 50%;
   background-repeat: no-repeat;
   padding: 5rem 0;
 }
@@ -336,7 +337,7 @@ button{
   width: 13%;
   margin-right: 0;
 }
-/* -------------------------content-4------------------------------------------ */
+/* -------------------------Section-4------------------------------------------ */
 .content-4{
   background-color: rgb(240,250,255);
   padding: 5rem 0;
@@ -368,7 +369,7 @@ button{
   letter-spacing: -0.16px;
   color: rgba(102, 102, 102, 1);
 }
-/* ----------------------------content-5---------------------------------------- */
+/* ----------------------------Section-5---------------------------------------- */
 .content-5{
   padding: 5rem 0;
   background-color: white;
@@ -450,7 +451,7 @@ button{
 /* ----------------------------------section-6----------------------------------- */
 .content-6{
   padding: 5rem 0;
-  background-color: rgb(231,231,233);
+  background-image: linear-gradient(180deg,#ffffff 0%,#e3e3e5 100%);
 }
 
 .sqi-study-div{
@@ -490,5 +491,101 @@ button{
   line-height: 22.4px;
   font-family: 'Poppins';
   color: rgba(102, 102, 102, 1);
-  /* width: 15rem; */
+}
+
+/* -------------------------------------------Section-7------------------------------------------------------ */
+.content-7{
+  padding: 5rem 0;
+  background-color: white;
+  height: 100vh;
+}
+
+.testimonial-div{
+  width: 80%;
+  font-family: 'Poppins';
+}
+
+.testimonial-div h2{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 57.6px;
+}
+
+.testimonial-div p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: -0.14px;
+  width: 32rem;
+}
+
+.reviews{
+  width: 80%;
+}
+
+.inner-review .d1{
+  width: 35%;
+}
+
+.inner-review .d2{
+  width: 65%;
+}
+
+.inner-review .d1 .pix-div{
+  width: 3rem;
+  height: 3rem;
+}
+
+.pix-div img{
+  width: 3rem;
+  height: 3rem;
+}
+
+.d1 span{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: Helvetica;
+}
+
+.rating-div span{
+  color: rgba(251, 142, 40, 1);
+  font-size: 21px;
+  font-weight: 600;
+  font-family: Helvetica;
+  line-height: 20px;
+}
+
+.rating-div .star{
+  font-size: 19px;
+}
+
+.total-review{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: Helvetica;
+}
+
+.powered-div{
+  width: 9rem;
+}
+
+.review-btn{
+  width: 80%;
+}
+
+.review-btn button{
+  background-color: rgb(10,108,255);
+}
+
+.review-btn .google-img{
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.review-btn .r-text{
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
 }
