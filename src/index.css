@@ -589,3 +589,61 @@ button{
   font-weight: 400;
   color: white;
 }
+
+.slide-rating-div{
+  width: 45%;
+  height: 13rem;
+}
+
+.slide-rating-div h6{
+  font-size: 14px;
+  font-family: Helvetica;
+  line-height: 12px;
+  font-weight: 700;
+  color: rgba(21, 79, 193, 1);
+}
+
+.slide-rating-div .year{
+  font-size: 13px;
+  font-family: Helvetica;
+  font-weight: 400;
+}
+
+.slide-rating-div .name{
+  width: 2.8rem;
+  height: 2.8rem;
+  font-family: Helvetica;
+}
+
+.star-div .star{
+  font-size: 18px;
+  color: rgba(251, 142, 40, 1);
+}
+
+.slide-rating-div .comment{
+  height: 5.5rem;
+}
+
+.slide-rating-div .comment span{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: 'Helvetica';
+}
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 5px; /* Adjust the width as desired */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Set a background color for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set a color for the scrollbar thumb */
+}
+
+* {
+  scrollbar-color: #888 #f1f1f1;
+}
