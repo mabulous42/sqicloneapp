@@ -1,3 +1,10 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +17,476 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Poppins";
+}
+
+nav{
+  background-color: white;
+}
+
+button{
+  background-color: inherit;
+}
+
+
+.logo-div{
+  margin-left: 5rem;
+}
+
+.right-nav{
+  margin-right: 5rem;
+}
+
+.nav-text{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(8, 31, 137);
+}
+
+.arrow-down-icon{
+  font-size: 10px;
+}
+
+.link{
+  margin-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+.home-drop,
+.programmes-drop,
+.admissions-drop,
+.e-portal-drop{
+  display: none;
+  top: 3.4rem;
+  width: 14rem;
+  background-color: rgba(255, 255, 255, 0.89);
+  border-top: 3px solid rgb(0,28,134);
+  transition: all 1s linear;
+}
+
+.link:hover .home-drop,
+.link:hover .programmes-drop,
+.link:hover .admissions-drop,
+.link:hover .e-portal-drop{
+  display: block;
+}
+
+.home-drop button,
+.programmes-drop button,
+.admissions-drop button,
+.e-portal-drop button{
+  width: 80%;
+  transition: all 1s linear;
+  background-color: rgba(255, 255, 255, 0.123);
+
+}
+
+.home-drop button:hover,
+.programmes-drop button:hover,
+.admissions-drop button:hover,
+.e-portal-drop button:hover{
+  background-color: rgb(247, 244, 249);
+}
+
+.d-text{
+  font-size: 14px;
+  line-height: 28px;
+}
+/* -------------------------end of nav-------------------------------------- */
+
+.fix-logo1,
+.fix-logo2,
+.fix-logo3{
+  top: 40vh;
+}
+
+.s{
+  background-color: rgb(26,0,82);
+  width: 5px;
+}
+
+.fix-logo2{
+  top: 46.5vh;
+}
+
+.fix-logo3{
+  top: 53vh;
+}
+
+.fb{
+  width: 3rem;
+  transition: all 0.2s linear;
+  background-color: rgb(58,87,154);
+  padding-bottom: 10px;
+  padding-top: 6px;
+  border-radius: 0 5px 0 0;
+}
+
+.fb-img{
+  width: 0.7rem;
+}
+
+.fb:hover{
+  width: 2rem;
+  margin-left: 0.3rem;
+  background-color: rgba(58, 87, 154, 0.842);
+}
+
+.twitter{
+  width: 3rem;
+  padding: 12px 0;
+  transition: all 0.2s linear;
+  background-color: rgb(0,171,240);
+}
+
+.twitter:hover{
+  margin-left: 0.3rem;
+  width: 2rem;
+  background-color: rgba(0, 172, 240, 0.795);
+}
+
+.twitter-img{
+  width: 1.2rem;
+}
+
+.linkedln{
+  background-color: rgb(18,123,182);
+  width: 3rem;
+  transition: all 0.2s linear;
+  border-radius: 0 0 5px 0;
+}
+
+.linkedln-img{
+  width: 2.4rem;
+}
+
+.linkedln:hover{
+  margin-left: 0.3rem;
+  width: 2rem;
+  background-color: rgba(18, 122, 182, 0.829);
+}
+
+.chat{
+  bottom: 7rem;
+  left: 3rem;
+}
+
+.whatsapp-div{
+  background-color: rgb(45,183,66);
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.whatsapp-img{
+  width: 60%;
+  transition: all 0.3s linear;
+}
+
+.need-help{
+  left: 4rem;
+  top: 0.7rem;
+  width: 10rem;
+  background-color: rgba(245, 247, 249, 1);
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Arial;
+  padding: 8px 0;
+}
+
+/* ---------------------------section-1------------------------------------ */
+
+.content-1{
+  margin-top: 5.5rem;
+}
+
+.study{
+  margin-left: 3.7rem;
+  padding-left: 6rem;
+  width: 45%;
+}
+
+.study h1{
+  font-size: 72px;
+  line-height: 79.2px;
+  font-weight: 700;
+  color: rgba(26, 0, 82, 1);
+  font-family: "Poppins";
+}
+
+.study p{
+  font-size: 16px;
+  line-height: 28.8px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.a-link{
+  text-decoration: none;
+}
+
+.a-link button{
+  background-color: rgb(0,32,138);
+  border-radius: 10px;
+  padding: 12px 32px;
+}
+
+.a-link button h6{
+  font-family: "Poppins";
+  color: white;
+  font-size: 14px;
+  line-height: 23.8px;
+  font-weight: 600;
+}
+
+.arrow-icon{
+  top: 1.35rem;
+  right: 1.4rem;
+  transition: all 2s ease-in-out;
+  display: none;
+}
+
+.a-link button:hover .arrow-icon{
+  right: 1rem;
+  display: block;
+}
+/* -----------------------Section-2------------------------------------------- */
+.content-2{
+  background-color: rgb(1,5,66);
+  padding: 5rem 0;
+}
+
+.inner-content{
+  height: 100%;
+  width: 78%;
+}
+
+.inner-content h3{
+  font-size: 28px;
+  line-height: 28px;
+  font-family: 'RaleWay';
+  font-weight: 600;
+}
+
+.inner-content p{
+  font-size: 14px;
+  line-height: 23.8px;
+  font-weight: 500;
+  font-family: 'Poppins';
+  text-align: justify;
+}
+
+.learn-btn{
+  border: 2px solid white;
+}
+
+.learn-btn h5{
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 500;
+  font-family: 'Raleway';
+}
+
+.learn-btn .arrow{
+  height: 2rem;
+  width: 2rem;
+  margin-left: -20px;
+  display: none;
+  transition: all 1s ease-in-out;
+}
+
+.learn-btn:hover .arrow{
+  margin-left: 0;
+  display: block;
+}
+
+/* ----------------------------------section-3------------------------------------ */
+.content-3{
+  padding: 5rem 0;
+}
+
+.alumni-div{
+  width: 80%;
+}
+
+.alumni-div h2{
+  font-size: 27px;
+  line-height: 32.4px;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+.partner-div{
+  width: 80%;
+}
+
+.p-img-div{
+  width: 13%;
+  margin-right: 9rem;
+}
+
+.p-img-div4{
+  width: 13%;
+  margin-right: 0;
+}
+/* -------------------------content-4------------------------------------------ */
+.content-4{
+  background-color: rgb(240,250,255);
+  padding: 5rem 0;
+}
+
+.s4-img{
+  width: 58%;
+  margin-right: 4rem;
+}
+
+.s4-text{
+  width: 40%;
+}
+
+.s4-text h2{
+  font-size: 45px;
+  line-height: 54px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  width: 76%;
+}
+
+.s4-text p{
+  font-size: 16px;
+  line-height: 28.8px;
+  font-weight: 500;
+  font-family: 'Poppins';
+  width: 76%;
+  letter-spacing: -0.16px;
+  color: rgba(102, 102, 102, 1);
+}
+/* ----------------------------content-5---------------------------------------- */
+.content-5{
+  padding: 5rem 0;
+  background-color: white;
+}
+
+.s5-div{
+  width: 80%;
+}
+
+.s5-left-div h2{
+  font-size: 48px;
+  line-height: 57.6px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  letter-spacing: -0.96px;
+}
+
+.s5-left-div p{
+  font-size: 16px;
+  line-height: 28.8px;
+  font-weight: 500;
+  font-family: 'Poppins';
+  letter-spacing: -0.16px;
+  color: rgba(102, 102, 102, 1);
+}
+
+.a{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23.8px;
+  letter-spacing: -0.14px;
+  font-family: 'Poppins';
+  color: rgb(0,32,153);
+}
+
+.s5-left-div .a:hover{
+  color: rgba(224, 97, 0, 1);
+}
+
+.s5-img-content-left-div{
+  background-color: rgb(213,234,243);
+}
+
+.s5-img-content-left{
+  width: 80%;
+}
+
+.s5-img-content-left h3{
+  font-size: 28px;
+  line-height: 39.2px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  letter-spacing: -0.56px;
+}
+
+.s5-img-content-left p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25.2px;
+  letter-spacing: -0.14px;
+  font-family: 'Poppins';
+  color: black;
+  width: 94.5%;
+}
+
+.s5-img-content-left-div2{
+  background-color: rgb(224,213,192);
+}
+
+.s5-img-content-right-div{
+  background-color: rgb(238,239,189);
+  border: 1px solid black;
+}
+
+.s5-img-content-right-div2{
+  background-color: rgb(223,213,232);
+  border: 1px solid black;
+}
+/* ----------------------------------section-6----------------------------------- */
+.content-6{
+  padding: 5rem 0;
+  background-color: rgb(231,231,233);
+}
+
+.sqi-study-div{
+  width: 80%;
+}
+
+.sqi-study-div h2{
+  font-size: 48px;
+  line-height: 57.6px;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+.dd{
+  width: 80%;
+}
+
+.icon-div{
+  color: rgb(0,32,138);
+  padding: 15px;
+}
+
+.wid-size{
+  width: 30%;
+}
+
+.wid-size h4{
+  font-size: 19px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  line-height: 26.6px;
+}
+
+.wid-size p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  font-family: 'Poppins';
+  color: rgba(102, 102, 102, 1);
+  /* width: 15rem; */
 }
